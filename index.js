@@ -24,7 +24,7 @@ function sayHiToGrandma(string) {
   if (string === string.toUpperCase())
     console.log(string)
     var logShout = 'hello'
-
+    expect(spy).toHaveBeenCalledWith('HELLO')
 
     //const spy = expect.spyOn(console, 'log').andCallThrough()
 
