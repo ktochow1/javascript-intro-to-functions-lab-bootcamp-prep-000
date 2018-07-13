@@ -30,5 +30,5 @@ function sayHiToGrandma(string) {
     expect(spy).toHaveBeenCalledWith('HELLO')
 
     console.log.restore()
-  })
+  )
 })
