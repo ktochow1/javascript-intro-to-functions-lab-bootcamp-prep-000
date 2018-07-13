@@ -22,4 +22,3 @@ function sayHiToGrandma(string) {
 
   function logShout(string) {
   } //if (string === string.toUpperCase())
-
